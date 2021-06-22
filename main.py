@@ -17,9 +17,9 @@ hmdt = api_data['main']['humidity']
 wind_spd = api_data['wind']['speed']
 date_time = datetime.now().strftime("%d %b %Y | %I:%M:%S %p")
 
-print ("-------------------------------------------------------------")
+print ("---------------------------------------------------")
 print ("Weather Stats for - {}  || {}".format(location.upper(), date_time))
-print ("-------------------------------------------------------------")
+print ("--------------------------------------------")
 
 print ("Current temperature is: {:.2f} deg C".format(temp_city))
 print ("Current weather desc  :",weather_desc)
